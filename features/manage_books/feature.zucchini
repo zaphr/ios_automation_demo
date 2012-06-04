@@ -1,6 +1,18 @@
-# Start on the "Welcome" screen:
-# 	Take a screenshot named "welcome_first_boot"
-# 	Type "Zucchini" in the username field
-# 	Tap "Go"  
-	 
+Start on the "BookList" screen:
+	Take a screenshot
+    Tap "Add"
+
+Then on the "Create Book" screen:
+    Take a screenshot 
+    Tap "Title"
+    Type "To Kill a Mockingbird"
+	Tap "Author"
+	Type "Harper Lee"
+	Tap "Save"
 	
+Then on the "Booklist" screen:
+    Take a screenshot
+    Tap "To Kill a Mockingbird"
+
+Then on the "Edit Book" screen:
+    Take a screenshot
