@@ -1,10 +1,14 @@
 class CreateBookScreen extends Screen
   anchor: -> view.elements()["New Book"]
+
+  input_for: (title) ->
+    ->
+     throw 'pending CreateBookScreen selector'       
   
   constructor: ->
     super 'create_book'
     
     extend @elements,
-    'Title'     : -> view.tableViews()[0].cells()[0],
-    'Author'    : -> view.tableViews()[0].cells()[1]
+    'Title'     : @input_for('Title'),
+    'Author'    : @input_for('Author')
    
